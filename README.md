@@ -3,18 +3,18 @@ Web application that allows users to create, read, update, and delete (CRUD) blo
 
 # Installation
 
-## Clone the repository:
+### Clone the repository:
 ```bash
 https://github.com/Pra1tik/CRUD-application.git
 ```
 
-## Create virtual environment and activate it
-## Install requirements.txt
+### Create virtual environment and activate it
+### Install requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
 
-## Add postgres username, password in settings.py
+### Add postgres username, password in settings.py
 ```bash
 'NAME': 'db_name',
 'USER': 'user_name',
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 'PORT': '5432'
 ```
 
-## Run the following commands to start the server
+### Run the following commands to start the server
 ```bash
 python manage.py makemigrations
 python manage.py migrate
@@ -32,9 +32,9 @@ python manage.py runserver
 
 ## For Frontend
 
-## Change to the frontend directory
+### Change directory to the frontend directory
 
-## Run the following commands
+### Run the following commands
 ```bash
 npm install
 npm start
