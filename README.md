@@ -3,6 +3,14 @@ Web application that allows users to create, read, update, and delete (CRUD) blo
 
 ##Installation
 
-1. Clone the repository:
+```bash
+##Clone the repository:
 https://github.com/Pra1tik/CRUD-application.git
-2. 
+
+##Create virtual environment and activate it
+
+##Install requirements.txt
+pip install -r requirements.txt
+
+ 
+```
